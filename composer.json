@@ -1,0 +1,24 @@
+{
+    "name": "HS-matty/Radmaster",
+    "type": "library",
+    "description": "Radmaster Toolkit  - library for rapid php development (dev)",
+    "keywords": ["rad","php7","std"],
+    "homepage": "https://github.com/HS-matty/Radmaster",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Siarhei Vauchok",
+            "email": "byqdes@gmail.com",
+            "homepage": "http://hytex.radmaster.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+	"psr-4": {
+            "Radmaster\\Toolkit\\": "src/"
+        }
+    }
+}
